@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".feature.search.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_nike_logo" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/searchEt"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/background_et_search"
+                android:drawableStart="@drawable/ic_search"
+                android:focusable="true"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical|start"
+                android:hint="@string/search"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="?colorOnSurface"
+                android:textColorHint="?android:textColorSecondary"
+                android:textDirection="rtl"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/cancelSearchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="32dp"
+                app:srcCompat="@drawable/ic_outline_cancel_24" />
+
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:clipToPadding="false"
+            android:padding="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            tools:listitem="@layout/item_search_product" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

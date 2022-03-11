@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">NikeShop</string>
+    <string name="home">خانه</string>
+    <string name="profile">حساب کاربری</string>
+    <string name="cart">سبد خرید</string>
+    <string name="search">جستجو</string>
+    <string name="latest">جدیدترین</string>
+    <string name="viewAll">مشاهده همه</string>
+    <string name="comments">نظرات کاربران</string>
+    <string name="insertComment">ثبت نظر</string>
+    <string name="viewAllComments">مشاهده همه نظرات</string>
+    <string name="productList">لیست محصولات</string>
+    <string name="sort">مرتب سازی</string>
+    <string name="sortPriceHighToLow">گران ترین</string>
+    <string name="sortPriceLowToHigh">ارزان ترین</string>
+    <string name="sortLatest">جدید ترین</string>
+    <string name="sortPopular">پر بازدید ترین</string>
+    <string name="popular">پر بازدید ترین</string>
+    <string-array name="sortTitlesArray">
+        <item>@string/sortLatest</item>
+        <item>@string/sortPopular</item>
+        <item>@string/sortPriceHighToLow</item>
+        <item>@string/sortPriceLowToHigh</item>
+    </string-array>
+    <string name="addToCart">افزودن به سبد خرید</string>
+    <string name="unknownError">خطای نامشخص</string>
+    <string name="successfulAddToCart">به سبد خرید اضافه شد</string>
+
+    <string name="email">ایمیل</string>
+
+    <string name="password">رمز عبور</string>
+
+    <string name="loginScreenTitle">ورود به حساب کاربری</string>
+    <string name="login">ورود</string>
+    <string name="signUpHint">حساب کاربری ندارید؟</string>
+    <string name="signUp">ثبت نام</string>
+    <string name="authHint">ایمیل و رمزعبور خود را وارد کنید</string>
+    <string name="signUpScreenTitle">ایجاد حساب کاربری</string>
+    <string name="loginHint">قبلا ثبت نام کردید؟</string>
+    <string name="pay">پرداخت</string>
+    <string name="count">تعداد</string>
+    <string name="removeFromCart">حذف از سبد خرید</string>
+    <string name="purchaseDetail">جزئیات خرید</string>
+    <string name="totalPrice">مبلغ کل</string>
+    <string name="shippingCost">هزینه ارسال</string>
+    <string name="payablePrice">مبلغ قابل پرداخت</string>
+    <string name="cartLowCountError">کمتر از 1 نمیتواند باشد</string>
+    <string name="cartMostCountError">بیشتر از 5 نمیتواند باشد</string>
+    <string name="usernameOrPasswordIsIncorrect">نام کاربری و یا پسورد صحیح نمی باشد!</string>
+    <string name="usernameOrPasswordCantBeNull">نام کاربری یا رمز عبور نمی تواند خالی باشد</string>
+    <string name="cartEmptyStateLoginRequired">وارد حساب کاربری خود شوید</string>
+    <string name="cartEmptyState">هیچ خبری اینجا نیست</string>
+    <string name="cartEmptyStateCallToAction">ورود به حساب کاربری</string>
+    <string name="shipping">پرداخت</string>
+    <string name="address">آدرس</string>
+    <string name="phoneNumber">شماره موبایل</string>
+    <string name="postalCode">کد پستی</string>
+    <string name="name">نام</string>
+    <string name="lastName">نام خانوادگی</string>
+    <string name="cashOnDelivery">پرداخت در محل</string>
+    <string name="cashOnline">پرداخت آنلاین</string>
+    <string name="checkoutToolbarTitle">رسید پرداخت</string>
+    <string name="returnHome">برگشت به صفحه اصلی</string>
+    <string name="orderHistory">سوابق سفارش</string>
+    <string name="purchaseStatus">وضعیت سفارش</string>
+    <string name="price">مبلغ</string>
+    <string name="favorites">لیست علاقه مندی ها</string>
+    <string name="signIn">ورود به حساب کاربری</string>
+    <string name="signOut">خروج از حساب کاربری</string>
+    <string name="guestUser">کاربر مهمان</string>
+    <string name="favorite_empty_state_message">لیست علاقه مندی خالی است!</string>
+    <string name="favorite_help_message">برای حذف محصول انگشت خود را نگه دارید!</string>
+    <string name="addComment">اضافه کردن نظر</string>
+    <string name="successfulAddComment">نظر شما با موفقیت ثبت شد</string>
+    <string name="subject">عنوان</string>
+    <string name="yourComment">نظر شما</string>
+    <string name="loginForAddComment">برای ثبت کامنت باید وارد حساب کاربری خود شوید</string>
+    <string name="loginForOrderHistory">باید وارد حساب کاربری شوید</string>
+    <string name="productDeleted">محصول مورد نظر حذف شد</string>
+    <string name="orderId">شناسه سفارش</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connectionLost">خطا در برقرای ارتباط</string>
+    <string name="successfulLogin">با موفقیت وارد شدید</string>
+
+</resources>

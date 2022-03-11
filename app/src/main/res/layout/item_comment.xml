@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/commentTitleTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?textAppearanceBody1"
+        app:layout_constraintEnd_toStartOf="@+id/commentDateTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="start"
+        android:textDirection="rtl"
+        tools:text="خیلی زیبا و شیک" />
+
+    <TextView
+        android:id="@+id/commentDateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="?textAppearanceBody2"
+        android:textColor="?android:textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="@+id/commentTitleTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="تاریخ درج میشود" />
+
+    <TextView
+        android:id="@+id/authorCommentTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceBody1"
+        android:textColor="?android:textColorSecondary"
+        app:layout_constraintStart_toStartOf="@+id/commentTitleTv"
+        app:layout_constraintTop_toBottomOf="@+id/commentTitleTv"
+        tools:text="مهدی ابوالحسنی" />
+
+    <TextView
+        android:id="@+id/commentContentTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="?textAppearanceBody2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="start"
+        android:textDirection="rtl"
+
+        app:layout_constraintStart_toStartOf="@+id/commentTitleTv"
+        app:layout_constraintTop_toBottomOf="@+id/authorCommentTv"
+        tools:text="متتتتتن کامنت" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?dividerColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commentContentTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

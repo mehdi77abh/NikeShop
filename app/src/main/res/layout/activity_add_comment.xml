@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.addComment.AddCommentActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.nikeshop.customView.NikeToolbar
+            android:id="@+id/addCommentToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:nt_title="@string/addComment"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/commentTitleEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_comment_et"
+            android:minHeight="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/subject"
+            android:textAppearance="?textAppearanceHeadline6"
+            android:paddingStart="8dp"
+            android:textDirection="rtl"
+
+            />
+
+        <EditText
+            android:id="@+id/commentContentEt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/background_comment_et"
+            android:hint="@string/yourComment"
+            android:gravity="start"
+            android:textAppearance="?textAppearanceBody1"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+
+            />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/submitCommentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="?colorPrimary"
+        app:srcCompat="@drawable/ic_baseline_add_comment_24"
+        app:fabSize="normal"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
